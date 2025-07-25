@@ -1,0 +1,25 @@
+body {
+    display: grid;
+}
+
+.links {
+    float: right;
+    padding-right: 10px;
+}
+
+.search-form, .image-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+input {
+    display: block;
+    border-radius: 6px;
+}
+
+button {
+    
+}

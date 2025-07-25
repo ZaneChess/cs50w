@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Search</title>
 </head>
 <body>
-    <a href="imageSearch.html">Images</a>
-    <a href="advancedSearch.html">Advanced Search</a>
-    <form action="https://www.google.com/search">
-        <input type="text" name="q" id="index">
-        <input type="submit" value="Search">
-    </form>
+    
+    <div class="links">
+        <a href="imageSearch.html" class="links">Image Search</a>
+        <a href="advancedSearch.html" class="links">Advanced Search</a>
+    </div>
+
+    <div class="search-form">
+        <form action="https://www.google.com/search">
+            <input type="text" name="q" id="index">
+            <button type="submit" value="Search" class="submit-btn">Search</button>
+        </form>
+    </div>
     
 </body>
 </html>
