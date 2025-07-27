@@ -1,5 +1,6 @@
 body {
     display: grid;
+    background: #202124;
 }
 
 .links {
@@ -20,6 +21,9 @@ input {
     border-radius: 6px;
 }
 
-button {
-    
+input {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: #e8eaed;
 }
