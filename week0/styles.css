@@ -1,29 +1,32 @@
 body {
     display: grid;
-    background: #202124;
 }
 
 .links {
     float: right;
     padding-right: 10px;
+    height: 5vh;
 }
 
+.logo {
+    display: flex;
+    height: 47.5vh;
+    align-items: end;
+    justify-content: center;
+}
 .search-form, .image-form {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    
+    height: 47.5vh;
 }
 
 input {
     display: block;
-    border-radius: 6px;
+    border-radius: 30px;
+    height: 50px;
+    width: 450px;
+    line-height: 22px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-input {
-    outline: none;
-    background-color: transparent;
-    border: none;
-    color: #e8eaed;
-}
