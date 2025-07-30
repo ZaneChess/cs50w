@@ -1,5 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: grid;
+    width: 100%;
+    margin: 0;
 }
 
 .links {
@@ -10,23 +16,59 @@ body {
 
 .logo {
     display: flex;
-    height: 47.5vh;
+    height: 35vh;
     align-items: end;
     justify-content: center;
+    padding-bottom: 20px;   
 }
 .search-form, .image-form {
     display: flex;
     justify-content: center;
-    height: 47.5vh;
+    height: 50vh;
+    text-align: center;
+}
+
+#advanced {
+    margin: 15px;
+    border-radius: 0px;
+    padding: 10px;
+    height: 25px;
+}
+
+.advanced-div {
+    display: flex;
+    margin: 10px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    width: 100px
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 input {
-    display: block;
+    display: flex;
     border-radius: 30px;
     height: 50px;
     width: 450px;
     line-height: 22px;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: 33vh 34vh 33vh;
+    background-color: lightgray;
+    padding: 20px;
+    height: 10vh;
 }
 
