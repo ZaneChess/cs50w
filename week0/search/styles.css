@@ -39,13 +39,13 @@ body {
     font-size: 16px;
 }
 
-.advanced-half {
+/* .advanced-half {
     margin: 15px;
     border-radius: 0px;
     padding: 10px;
     height: 25px;
     width: 200px;
-}
+} */
 
 .advanced-div {
     display: flex;
